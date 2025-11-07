@@ -39,8 +39,10 @@ export default function BioLinksPage() {
             <Shield className="w-12 h-12 text-blue-600" />
             <div className="absolute inset-0 rounded-full border-2 border-blue-500/20 animate-pulse"></div>
           </div>
-          <h1 className="text-4xl font-extrabold text-blue-600 mb-3 tracking-tight">
+          <h1 className="flex justify-center text-4xl font-extrabold text-blue-600 mb-3 tracking-tight">
+            
             تأمين المركبات
+            <img src="/bagge.png" alt="logp" width={40}/>  
           </h1>
           <p className="text-lg text-muted-foreground mb-2">شريكك الموثوق في التأمين</p>
           <p className="text-sm text-muted-foreground">
