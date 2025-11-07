@@ -2,8 +2,8 @@ import Link from "next/link"
 import { Lock, Shield, Eye } from "lucide-react"
 
 export const metadata = {
-  title: " - شريكك الموثوق",
-  description: "حلول تأمين المركباتة احترافية مع شفافية وأمان كاملين",
+  title: "تأمين حياة آمنة - شريكك الموثوق",
+  description: "حلول تأمين احترافية مع شفافية كاملة والأمان",
 }
 const link="#"
 export default function BioLinksPage() {
