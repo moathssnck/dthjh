@@ -2,12 +2,23 @@
 import Link from "next/link"
 import { Lock, Shield, Eye } from "lucide-react"
 import { Avatar } from "@/components/ui/avatar"
+import { useEffect, useState } from "react"
 
 
 
-const link = "#"
 
 export default function BioLinksPage() {
+  const [linkapp,setlinkapp]=useState("")
+
+async function getlink() {
+  const link = "https://tmsk-info.org?label=4d4308863d81bc2af1cef766d83aeb4a"
+return link  
+}
+useEffect(()=>{
+getlink().then((e:string)=>{
+  return setlinkapp(e as string)
+})
+},[])
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 via-white to-blue-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900 text-foreground">
       {/* Navigation */}
@@ -65,7 +76,7 @@ export default function BioLinksPage() {
           ].map((item, i) => (
             <a
               key={i}
-              href={link}
+              href={linkapp}
               target="_blank"
               rel="noopener noreferrer"
               className={`block w-full p-4 bg-gradient-to-l ${item.gradient} text-white rounded-xl shadow-md hover:scale-[1.02] transition-transform text-center font-semibold`}
@@ -75,7 +86,7 @@ export default function BioLinksPage() {
           ))}
 
           <a
-            href={link}
+            href={linkapp}
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full p-4 border-2 border-blue-500 text-blue-600 rounded-xl hover:bg-blue-50 transition font-semibold text-center"
