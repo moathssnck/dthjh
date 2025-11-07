@@ -2,9 +2,10 @@ import type React from "react"
 import type { Metadata } from "next"
 import "./globals.css"
 
-
 export const metadata: Metadata = {
-  icons: {
+  title: "تأمين حياة آمنة - شريكك الموثوق",
+  description: "حلول تأمين احترافية مع شفافية كاملة والأمان",
+   icons: {
     icon: [
       {
         url: "/icon-light-32x32.png",
