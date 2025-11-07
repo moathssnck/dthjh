@@ -11,7 +11,7 @@ export default function BioLinksPage() {
   const [linkapp, setlinkapp] = useState("")
 
   async function getlink() {
-    const link = "https://tmsk-info.org?label=4d4308863d81bc2af1cef766d83aeb4a"
+    const link = "/"
     return link
   }
   useEffect(() => {
