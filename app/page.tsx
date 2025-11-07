@@ -109,32 +109,23 @@ export default function BioLinksPage() {
           <div className="space-y-3">
             <p className="text-foreground">
               <span className="font-semibold">الهاتف:</span>{" "}
-              <a href="tel:+18005551234" className="text-accent hover:underline">
-                1234-555-800-1
+              <a dir="ltr" href="tel:0550-999899" className="text-blue-400 hover:underline">
+                0550-999899
               </a>
             </p>
             <p className="text-foreground">
               <span className="font-semibold">البريد الإلكتروني:</span>{" "}
-              <a href="mailto:support@securelife.com" className="text-accent hover:underline">
+              <a href="mailto:support@securelife.com" className="text-blue-400 hover:underline">
                 support@securelife.com
               </a>
             </p>
             <p className="text-foreground">
-              <span className="font-semibold">ساعات العمل:</span> الاثنين-الجمعة 8 صباحًا - 8 مساءً بتوقيت شرق الولايات
-              المتحدة
+              <span className="font-semibold">ساعات العمل:</span> الاثنين-الجمعة 8 صباحًا - 8 مساءً بتوقيت مكة المكرمة
             </p>
           </div>
         </div>
 
-        {/* Google Ads Placeholder */}
-        <div className="mb-10">
-          <div className="google-ads-container bg-muted rounded-lg border-2 border-dashed border-border">
-            <div className="text-center">
-              <p className="text-muted-foreground text-sm">إعلان جوجل أدسنس</p>
-              <p className="text-xs text-muted-foreground">{`<!-- سيتم تحميل إعلانات جوجل هنا -->`}</p>
-            </div>
-          </div>
-        </div>
+     
       </main>
 
       {/* Footer with Policy Links */}
