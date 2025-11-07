@@ -3,7 +3,7 @@ import { Lock, Shield, Eye } from "lucide-react"
 
 export const metadata = {
   title: " - شريكك الموثوق",
-  description: "حلول تأمينية احترافية مع شفافية وأمان كاملين",
+  description: "حلول تأمين المركباتة احترافية مع شفافية وأمان كاملين",
 }
 const link="#"
 export default function BioLinksPage() {
@@ -34,7 +34,7 @@ export default function BioLinksPage() {
           <div className="w-20 h-20 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-6">
             <Shield className="w-10 h-10 text-blue-500" />
           </div>
-          <h1 className="text-4xl font-bold text-blue-500 mb-3">تأميني</h1>
+          <h1 className="text-4xl font-bold text-blue-500 mb-3">تأمين المركبات</h1>
           <p className="text-lg text-muted-foreground mb-2">شريكك الموثوق في التأمين</p>
           <p className="text-sm text-muted-foreground">حماية ما يهمك أكثر مع شفافية كاملة</p>
         </div>
@@ -94,7 +94,7 @@ export default function BioLinksPage() {
            <div className="bg-white dark:bg-blue-500/5 rounded-lg p-8 mb-8 border border-border">
           <h2 className="text-2xl font-bold text-blue-500 mb-4">من نحن</h2>
           <p className="text-foreground mb-4 leading-relaxed">
-            تأميني تقدم حلول تأمينية شاملة منذ أكثر من 25 عامًا. نحن ملتزمون بتقديم خدمة استثنائية وأسعار
+            تأمين المركبات تقدم حلول تأمين المركباتة شاملة منذ أكثر من 25 عامًا. نحن ملتزمون بتقديم خدمة استثنائية وأسعار
             تنافسية وراحة بال كاملة لعملائنا الكرام.
           </p>
           <p className="text-foreground leading-relaxed">
@@ -137,20 +137,16 @@ export default function BioLinksPage() {
               <h4 className="font-bold text-foreground mb-4">روابط سريعة</h4>
               <ul className="space-y-2 text-sm">
                 <li>
-                  <Link href="#" className="text-blue-500 hover:text-blue-500/80 transition">
+                  <Link href="/privacy-policy" className="text-blue-500 hover:text-blue-500/80 transition">
                     المطالبات
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-blue-500 hover:text-blue-500/80 transition">
+                  <Link href="/privacy-policy" className="text-blue-500 hover:text-blue-500/80 transition">
                     الفواتير
                   </Link>
                 </li>
-                <li>
-                  <Link href="#" className="text-blue-500 hover:text-blue-500/80 transition">
-                    حسابي
-                  </Link>
-                </li>
+                              
               </ul>
             </div>
 
@@ -198,7 +194,7 @@ export default function BioLinksPage() {
 
           {/* Copyright */}
           <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-            <p>&copy; 2025 تأميني. جميع الحقوق محفوظة. مرخص ومنظم.</p>
+            <p>&copy; 2025 تأمين المركبات. جميع الحقوق محفوظة. مرخص ومنظم.</p>
           </div>
         </div>
       </footer>

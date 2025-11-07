@@ -250,7 +250,7 @@ export default function SecurityRules() {
               <strong>البريد الإلكتروني:</strong> security@securelife.com
             </p>
             <p>
-              <strong>الهاتف:</strong> 1234-555-800-1 (خط الأمان الساخن)
+              <strong>الهاتف:</strong>0550-999899 (خط الأمان الساخن)
             </p>
             <p>
               <strong>وقت الاستجابة:</strong> خلال 24 ساعة

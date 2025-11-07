@@ -160,10 +160,10 @@ export default function PrivacyPolicy() {
                 <strong>البريد الإلكتروني:</strong> privacy@securelife.com
               </p>
               <p>
-                <strong>الهاتف:</strong> 1234-555-800-1
+                <strong>الهاتف:</strong>0550-999899
               </p>
               <p>
-                <strong>البريد:</strong> سيكيور لايف للتأمين، قسم الخصوصية، 123 شارع التأمين، المدينة، الولاية 12345
+                <strong>البريد:</strong> سيكيور لايف للتأمين، قسم الخصوصية،  
               </p>
             </div>
           </section>
