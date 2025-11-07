@@ -21,10 +21,10 @@ export default function BioLinksPage() {
             </span>
           </div>
           <div className="flex gap-4 text-sm font-medium">
-            <Link href="#privacy" className="text-blue-500 hover:text-blue-600 transition">
+            <Link href="/privacy-policy" className="text-blue-500 hover:text-blue-600 transition">
               الخصوصية
             </Link>
-            <Link href="#security" className="text-blue-500 hover:text-blue-600 transition">
+            <Link href="/security-rules" className="text-blue-500 hover:text-blue-600 transition">
               الأمان
             </Link>
           </div>
@@ -152,7 +152,7 @@ export default function BioLinksPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-blue-500 hover:text-blue-600 transition">
+                  <Link href="/privacy-policy" className="text-blue-500 hover:text-blue-600 transition">
                     شروط الخدمة
                   </Link>
                 </li>
