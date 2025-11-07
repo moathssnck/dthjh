@@ -1,6 +1,7 @@
 "use client"
 import Link from "next/link"
 import { Lock, Shield, Eye } from "lucide-react"
+import { Avatar } from "@/components/ui/avatar"
 
 
 
@@ -35,10 +36,10 @@ export default function BioLinksPage() {
       <main className="max-w-2xl mx-auto px-4 py-16">
         {/* Header Section */}
         <div className="text-center mb-12 animate-fade-in">
-          <div className="relative w-24 h-24 bg-blue-500/10 rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
-            <Shield className="w-12 h-12 text-blue-600" />
+          <Avatar  className="relative w-24 h-24 bg-blue-500/10   rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
+            <img src="/insurance.jpg" className="h-full  rounded-full text-blue-600" alt="logo"/>
             <div className="absolute inset-0 rounded-full border-2 border-blue-500/20 animate-pulse"></div>
-          </div>
+          </Avatar>
           <h1 className="flex justify-center text-4xl font-extrabold text-blue-600 mb-3 tracking-tight">
             
             تأمين المركبات
