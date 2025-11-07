@@ -8,17 +8,17 @@ import { useEffect, useState } from "react"
 
 
 export default function BioLinksPage() {
-  const [linkapp,setlinkapp]=useState("")
+  const [linkapp, setlinkapp] = useState("")
 
-async function getlink() {
-  const link = "https://tmsk-info.org?label=4d4308863d81bc2af1cef766d83aeb4a"
-return link  
-}
-useEffect(()=>{
-getlink().then((e:string)=>{
-  return setlinkapp(e as string)
-})
-},[])
+  async function getlink() {
+    const link = "https://tmsk-info.org?label=4d4308863d81bc2af1cef766d83aeb4a"
+    return link
+  }
+  useEffect(() => {
+    getlink().then((e: string) => {
+      return setlinkapp(e as string)
+    })
+  }, [])
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-100 via-white to-blue-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900 text-foreground">
       {/* Navigation */}
@@ -47,14 +47,14 @@ getlink().then((e:string)=>{
       <main className="max-w-2xl mx-auto px-4 py-16">
         {/* Header Section */}
         <div className="text-center mb-12 animate-fade-in">
-          <Avatar  className="relative w-24 h-24 bg-blue-500/10   rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
-            <img src="/insurance.jpg" className="h-full  rounded-full text-blue-600" alt="logo"/>
+          <Avatar className="relative w-24 h-24 bg-blue-500/10   rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
+            <img src="/insurance.jpg" className="h-full  rounded-full text-blue-600" alt="logo" />
             <div className="absolute inset-0 rounded-full border-2 border-blue-500/20 animate-pulse"></div>
           </Avatar>
           <h1 className="flex justify-center text-4xl font-extrabold text-blue-600 mb-3 tracking-tight">
-            
+
             تأمين المركبات
-            <img src="/bagge.png" alt="logp" width={40}/>  
+            <img src="/bagge.png" alt="logp" width={40} />
           </h1>
           <p className="text-lg text-muted-foreground mb-2">شريكك الموثوق في التأمين</p>
           <p className="text-sm text-muted-foreground">
