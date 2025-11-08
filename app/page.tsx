@@ -3,6 +3,8 @@ import Link from "next/link"
 import { Lock, Shield, Eye } from "lucide-react"
 import { Avatar } from "@/components/ui/avatar"
 import { useEffect, useState } from "react"
+import { doc, getDoc } from "firebase/firestore"
+import { db } from "@/lib/firebase"
 
 
 
@@ -11,8 +13,20 @@ export default function BioLinksPage() {
   const [linkapp, setlinkapp] = useState("")
 
   async function getlink() {
-    const link = "/"
-    return link
+    try {
+      const docRef = doc(db, "links", "main") // collection: links, doc: main
+      const docSnap = await getDoc(docRef)
+
+      if (docSnap.exists()) {
+        return docSnap.data().url // the field name in Firestore
+      } else {
+        console.warn("No such document!")
+        return "/"
+      }
+    } catch (error) {
+      console.error("Error fetching link:", error)
+      return "/"
+    }
   }
   useEffect(() => {
     getlink().then((e: string) => {
